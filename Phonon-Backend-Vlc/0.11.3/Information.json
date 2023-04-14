@@ -1,0 +1,25 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Phonon-Backend-Vlc",
+  "version": "0.11.3",
+  "architectures": ["x86_64"],
+  "description": "VLC backend for the Phonon multimedia library",
+  "website": "https://invent.kde.org/libraries/phonon-vlc",
+  "downloadLinks": ["https://download.kde.org/stable/phonon/phonon-backend-vlc/0.11.3/phonon-backend-vlc-0.11.3.tar.xz"],
+  "md5sums": ["5ed16d3290b1ca5ed0bafb90e2ffb02e"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Phonon",
+      "version": "4.11.1",
+      "options": []
+    },
+    {
+      "name": "Vlc",
+      "version": "3.0.16",
+      "options": []
+    }
+  ],
+  "options": []
+}

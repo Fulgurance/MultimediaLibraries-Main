@@ -1,0 +1,87 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Phonon-Backend-Gstreamer",
+  "version": "4.10.0",
+  "architectures": ["x86_64"],
+  "description": "GStreamer backend for the Phonon multimedia library",
+  "website": "https://invent.kde.org/libraries/phonon-gstreamer",
+  "downloadLinks": ["https://download.kde.org/stable/phonon/phonon-backend-gstreamer/4.10.0/phonon-backend-gstreamer-4.10.0.tar.xz"],
+  "md5sums": ["60abf634e961160cd1772d486f4a7097"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Gstreamer",
+      "version": "1.18.4",
+      "options": []
+    },
+    {
+      "name": "Libxml2",
+      "version": "2.9.12",
+      "options": []
+    },
+    {
+      "name": "Phonon",
+      "version": "4.11.1",
+      "options": []
+    }
+  ],
+  "options": [
+    {
+      "name": "Gst-Plugins-Base",
+      "description": "Enable gst-plugins-base support for output to alsa",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Gst-Plugins-Base",
+          "version": "1.18.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Gst-Plugins-Good",
+      "description": "Enable gst-plugins-good support for output to pulseaudio",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Gst-Plugins-Good",
+          "version": "1.18.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Gst-Plugins-Bad",
+      "description": "Enable gst-plugins-bad support for AAC/M4A",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Gst-Plugins-Bad",
+          "version": "1.18.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Gst-Plugins-Ugly",
+      "description": "Enable gst-plugins-ugly support for MP3",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Gst-Plugins-Ugly",
+          "version": "1.18.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
+}
