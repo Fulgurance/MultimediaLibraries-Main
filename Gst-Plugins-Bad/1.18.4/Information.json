@@ -1,0 +1,20 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Gst-Plugins-Bad",
+  "version": "1.18.4",
+  "architectures": ["x86_64"],
+  "description": "Set of plug-ins that aren't up to par compared to the rest",
+  "website": "https://gstreamer.freedesktop.org/modules/gst-plugins-bad.html",
+  "downloadLinks": ["https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.18.4.tar.xz"],
+  "md5sums": ["8a73b497613a9f778e880b8a9eb9c1a3"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Gst-Plugins-Base",
+      "version": "1.18.4",
+      "options": []
+    }
+  ],
+  "options": []
+}

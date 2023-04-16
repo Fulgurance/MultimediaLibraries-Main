@@ -1,0 +1,20 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Gst-Plugins-Ugly",
+  "version": "1.18.4",
+  "architectures": ["x86_64"],
+  "description": "Set of plug-ins that have good quality and correct functionality but distributing them might pose problems",
+  "website": "https://gstreamer.freedesktop.org/modules/gst-plugins-ugly.html",
+  "downloadLinks": ["https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.18.4.tar.xz"],
+  "md5sums": ["e5fbd9a8a05632cfb9d0afd0ad856d52"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Gst-Plugins-Base",
+      "version": "1.18.4",
+      "options": []
+    }
+  ],
+  "options": []
+}
