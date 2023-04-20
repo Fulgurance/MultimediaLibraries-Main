@@ -25,7 +25,7 @@ class Target < ISM::Software
         super
 
         runNinjaCommand(["install"],buildDirectoryPath,
-                        {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}")
+                        {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
 end
