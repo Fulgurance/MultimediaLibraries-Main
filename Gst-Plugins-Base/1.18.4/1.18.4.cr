@@ -4,7 +4,7 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        fileReplaceTextAtLineNumber("#{mainWorkDirectoryPath(false)}/gst-libs/gst/gl/meson.build",")","implicit_include_directories : false)\n",1005)
+        fileReplaceTextAtLineNumber("#{mainWorkDirectoryPath(false)}/gst-libs/gst/gl/meson.build","implicit_include_directories : false)",")",1005)
     end
 
     def configure
