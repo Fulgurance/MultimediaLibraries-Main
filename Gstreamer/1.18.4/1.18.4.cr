@@ -8,7 +8,7 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "-prefix=/usr",
+        runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
                             "-Dgst_debug=false",
                             ".."],
