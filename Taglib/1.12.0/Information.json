@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Library for reading and editing the meta-data of several popular audio formats",
   "website": "https://taglib.github.io",
-  "downloadLinks": ["https://taglib.github.io/releases/taglib-1.12.tar.gz"],
-  "md5sums": ["4313ed2671234e029b7af8f97c84e9af"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

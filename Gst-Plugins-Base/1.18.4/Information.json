@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "GStreamer plugins and helper libraries",
   "website": "https://cgit.freedesktop.org/gstreamer/gst-plugins-base/",
-  "downloadLinks": ["https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.18.4.tar.xz"],
-  "md5sums": ["523336ed6938b8b1004847cbbd5e31cb"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

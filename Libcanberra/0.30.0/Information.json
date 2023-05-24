@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Implementation of the XDG Sound Theme and Name Specifications for generating event sounds on free desktops",
   "website": "https://0pointer.net/lennart/projects/libcanberra/",
-  "downloadLinks": ["http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz"],
-  "md5sums": ["34cb7e4430afaf6f447c4ebdb9b42072"],
-  "patchesLinks": ["https://www.linuxfromscratch.org/patches/blfs/11.0/libcanberra-0.30-wayland-1.patch"],
   "installedFiles": [],
   "dependencies": [
     {
@@ -28,8 +25,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Gstreamer",
@@ -42,8 +37,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Gtk+3",
@@ -56,8 +49,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Gtk+2",
@@ -70,8 +61,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Pulseaudio",
@@ -84,8 +73,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     }
   ]
 }

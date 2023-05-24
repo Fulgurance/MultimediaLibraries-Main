@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "C library for reading and writing sound files containing sampled audio data",
   "website": "https://github.com/libsndfile/libsndfile",
-  "downloadLinks": ["https://github.com/libsndfile/libsndfile/releases/download/1.0.31/libsndfile-1.0.31.tar.bz2"],
-  "md5sums": ["3f3b2a86a032f064ef922a2c8c191f7b"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [],
   "options": []

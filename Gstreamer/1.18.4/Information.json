@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Extremely powerful and versatile framework for creating streaming media applications",
   "website": "https://gstreamer.freedesktop.org/",
-  "downloadLinks": ["https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.4.tar.xz"],
-  "md5sums": ["fe381e1e910e622fee44692e865f7229"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
