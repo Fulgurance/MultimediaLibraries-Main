@@ -34,7 +34,7 @@
           "version": "1.18.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Gst-Plugins-Good",
@@ -46,7 +46,7 @@
           "version": "1.18.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Gst-Plugins-Bad",
@@ -58,7 +58,7 @@
           "version": "1.18.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Gst-Plugins-Ugly",
@@ -70,7 +70,7 @@
           "version": "1.18.4",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }

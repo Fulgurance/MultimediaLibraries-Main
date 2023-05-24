@@ -39,7 +39,7 @@
           "version": "4.10.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Phonon-Backend-Vlc",
@@ -63,7 +63,7 @@
           "version": "15.0.0",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }
