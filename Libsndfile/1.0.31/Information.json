@@ -6,6 +6,12 @@
   "description": "C library for reading and writing sound files containing sampled audio data",
   "website": "https://github.com/libsndfile/libsndfile",
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": ["Pass3"]
+    }
+  ],
   "options": []
 }
