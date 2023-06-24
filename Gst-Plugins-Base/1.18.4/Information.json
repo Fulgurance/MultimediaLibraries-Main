@@ -11,11 +11,6 @@
       "name": "Gstreamer",
       "version": "1.18.4",
       "options": []
-    },
-    {
-      "name": "Gobject-Introspection",
-      "version": "1.68.0",
-      "options": []
     }
   ],
   "options": []
