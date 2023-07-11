@@ -2,7 +2,9 @@
   "port": "MultimediaLibraries-Main",
   "name": "Phonon",
   "version": "4.11.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Multi-platform sound framework for application developers",
   "website": "https://github.com/KDE/phonon",
   "installedFiles": [],
@@ -40,7 +42,8 @@
           "version": "15.0.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

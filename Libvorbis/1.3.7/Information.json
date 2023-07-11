@@ -2,15 +2,17 @@
   "port": "MultimediaLibraries-Main",
   "name": "Libvorbis",
   "version": "1.3.7",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Reference implementation of the Vorbis codec",
   "website": "https://xiph.org/vorbis/doc/libvorbis/overview.html",
   "installedFiles": [],
   "dependencies": [
     {
-        "name": "Libogg",
-        "version": "1.3.5",
-        "options": []
+      "name": "Libogg",
+      "version": "1.3.5",
+      "options": []
     }
   ],
   "kernelDependencies": [],

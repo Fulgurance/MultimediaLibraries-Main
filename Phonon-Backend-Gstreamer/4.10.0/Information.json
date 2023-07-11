@@ -2,7 +2,9 @@
   "port": "MultimediaLibraries-Main",
   "name": "Phonon-Backend-Gstreamer",
   "version": "4.10.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "GStreamer backend for the Phonon multimedia library",
   "website": "https://invent.kde.org/libraries/phonon-gstreamer",
   "installedFiles": [],
@@ -35,7 +37,8 @@
           "version": "1.18.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Gst-Plugins-Good",
@@ -47,7 +50,8 @@
           "version": "1.18.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Gst-Plugins-Bad",
@@ -59,7 +63,8 @@
           "version": "1.18.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Gst-Plugins-Ugly",
@@ -71,7 +76,8 @@
           "version": "1.18.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

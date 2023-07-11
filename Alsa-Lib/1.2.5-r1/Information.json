@@ -2,7 +2,9 @@
   "port": "MultimediaLibraries-Main",
   "name": "Alsa-Lib",
   "version": "1.2.5-r1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "The Advanced Linux Sound Architecture library ",
   "website": "Library to interface with ALSA in the Linux kernel and virtual devices using a plugin system",
   "installedFiles": [],
@@ -10,9 +12,14 @@
     {
       "name": "SystemBase",
       "version": "0.2.0",
-      "options": ["Pass3"]
+      "options": [
+        "Pass3"
+      ]
     }
   ],
-  "kernelDependencies": ["CONFIG_SOUND","CONFIG_SND"],
+  "kernelDependencies": [
+    "CONFIG_SOUND",
+    "CONFIG_SND"
+  ],
   "options": []
 }

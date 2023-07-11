@@ -2,7 +2,9 @@
   "port": "MultimediaLibraries-Main",
   "name": "Gstreamer",
   "version": "1.18.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Extremely powerful and versatile framework for creating streaming media applications",
   "website": "https://gstreamer.freedesktop.org/",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "1.68.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

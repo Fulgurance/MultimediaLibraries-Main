@@ -2,7 +2,9 @@
   "port": "MultimediaLibraries-Main",
   "name": "Gst-Plugins-Good",
   "version": "1.18.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Set of plug-ins that we consider to have good quality code",
   "website": "https://gstreamer.freedesktop.org/modules/gst-plugins-good.html",
   "installedFiles": [],
@@ -10,7 +12,9 @@
     {
       "name": "Gst-Plugins-Base",
       "version": "1.18.4",
-      "options": ["Gobject-Introspection"]
+      "options": [
+        "Gobject-Introspection"
+      ]
     }
   ],
   "kernelDependencies": [],
