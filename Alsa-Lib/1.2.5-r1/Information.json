@@ -21,5 +21,6 @@
     "CONFIG_SOUND",
     "CONFIG_SND"
   ],
-  "options": []
+  "options": [],
+  "uniqueOptions": []
 }
