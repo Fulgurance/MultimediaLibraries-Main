@@ -1,0 +1,35 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Gstreamer",
+  "version": "1.22.5",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Extremely powerful and versatile framework for creating streaming media applications",
+  "website": "https://gstreamer.freedesktop.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Glib",
+      "version": "2.76.4",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Gobject-Introspection",
+      "description": "Enable gobject-introspection support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Gobject-Introspection",
+          "version": "1.76.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}

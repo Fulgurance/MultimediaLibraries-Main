@@ -1,0 +1,40 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Alsa-Lib",
+  "version": "1.2.9",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "The Advanced Linux Sound Architecture library ",
+  "website": "Library to interface with ALSA in the Linux kernel and virtual devices using a plugin system",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": [
+        "Pass3"
+      ]
+    }
+  ],
+  "kernelDependencies": [
+    "CONFIG_SOUND",
+    "CONFIG_SND"
+  ],
+  "options": [
+    {
+      "name": "Elogind",
+      "description": "Enable elogind support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Elogind",
+          "version": "252.9.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}
