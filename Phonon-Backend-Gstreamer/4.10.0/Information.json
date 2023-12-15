@@ -11,17 +11,17 @@
   "dependencies": [
     {
       "name": "Gstreamer",
-      "version": "1.18.4",
+      "version": ">=1.18.4",
       "options": []
     },
     {
       "name": "Libxml2",
-      "version": "2.9.12",
+      "version": ">=2.9.12",
       "options": []
     },
     {
       "name": "Phonon",
-      "version": "4.11.1",
+      "version": ">=4.11.1",
       "options": []
     }
   ],
@@ -34,7 +34,7 @@
       "dependencies": [
         {
           "name": "Gst-Plugins-Base",
-          "version": "1.18.4",
+          "version": ">=1.18.4",
           "options": []
         }
       ],
@@ -47,7 +47,7 @@
       "dependencies": [
         {
           "name": "Gst-Plugins-Good",
-          "version": "1.18.4",
+          "version": ">=1.18.4",
           "options": []
         }
       ],
@@ -60,7 +60,7 @@
       "dependencies": [
         {
           "name": "Gst-Plugins-Bad",
-          "version": "1.18.4",
+          "version": ">=1.18.4",
           "options": []
         }
       ],
@@ -73,7 +73,7 @@
       "dependencies": [
         {
           "name": "Gst-Plugins-Ugly",
-          "version": "1.18.4",
+          "version": ">=1.18.4",
           "options": []
         }
       ],
