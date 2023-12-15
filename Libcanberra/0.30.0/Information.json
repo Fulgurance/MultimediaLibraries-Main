@@ -11,7 +11,7 @@
   "dependencies": [
     {
       "name": "Libvorbis",
-      "version": "1.3.7",
+      "version": ">=1.3.7",
       "options": []
     }
   ],
@@ -24,7 +24,7 @@
       "dependencies": [
         {
           "name": "Alsa-Lib",
-          "version": "1.2.5-r1",
+          "version": ">=1.2.5-r1",
           "options": []
         }
       ],
@@ -37,7 +37,7 @@
       "dependencies": [
         {
           "name": "Gstreamer",
-          "version": "1.18.4",
+          "version": ">=1.18.4",
           "options": []
         }
       ],
@@ -50,7 +50,7 @@
       "dependencies": [
         {
           "name": "Gtk+",
-          "version": "3.24.30",
+          "version": ">=3.24.30",
           "options": []
         }
       ],
@@ -63,7 +63,7 @@
       "dependencies": [
         {
           "name": "Gtk+",
-          "version": "2.24.33",
+          "version": ">=2.24.33",
           "options": []
         }
       ],
@@ -76,7 +76,7 @@
       "dependencies": [
         {
           "name": "Pulseaudio",
-          "version": "15.0.0",
+          "version": ">=15.0.0",
           "options": []
         }
       ],
