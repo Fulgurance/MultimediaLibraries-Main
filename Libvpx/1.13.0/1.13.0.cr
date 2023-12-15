@@ -2,7 +2,7 @@ class Target < ISM::Software
 
     def prepare
         @buildDirectory = true
-        @buildDirectoryNames[:mainBuild] = "libvpx-build "
+        @buildDirectoryNames["MainBuild"] = "libvpx-build "
         super
 
         fileReplaceTextAtLineNumber("#{mainWorkDirectoryPath(false)}/build/make/Makefile","cp -p","cp",295)
