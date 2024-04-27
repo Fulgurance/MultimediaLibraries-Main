@@ -3,14 +3,15 @@ class Target < ISM::Software
     def prepare
         @buildDirectory = true
         super
-
-        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"]],mainWorkDirectoryPath)
     end
 
     def configure
         super
 
-        runMesonCommand([   "configure",
+        runMesonCommand([   "setup",
+                            "--reconfigure",
+                            "-Dauto_features=disabled",
+                            "configure",
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release"],
