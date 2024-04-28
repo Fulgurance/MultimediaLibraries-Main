@@ -40,7 +40,7 @@
         {
           "name": "Pulseaudio",
           "version": ">=15.0.0",
-          "options": []
+          "options": ["Glib"]
         }
       ],
       "kernelDependencies": []
