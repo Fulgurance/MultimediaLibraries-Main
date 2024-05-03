@@ -12,7 +12,6 @@ class Target < ISM::Software
 
         runMesonCommand([   "setup",
                             "--reconfigure",
-                            "-Dauto_features=disabled",
                             "--prefix=/usr",
                             "--buildtype=release",
                             "--wrap-mode=nodownload"],
