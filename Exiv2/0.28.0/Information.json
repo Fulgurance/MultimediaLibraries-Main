@@ -6,7 +6,7 @@
     "x86_64"
   ],
   "description": "Image metadata library and tools ",
-  "website": " https://github.com/Exiv2/exiv2",
+  "website": "https://github.com/Exiv2/exiv2",
   "installedFiles": [],
   "dependencies": [
     {
