@@ -13,6 +13,8 @@ class Target < ISM::Software
                             "-DEXIV2_ENABLE_VIDEO=yes",
                             "-DEXIV2_ENABLE_WEBREADY=yes",
                             "-DEXIV2_ENABLE_CURL=#{option("Curl") ? "yes" : "no"}",
+                            "-DEXIV2_ENABLE_INIH=#{option("Inih") ? "yes" : "no"}",
+                            "-DEXIV2_ENABLE_BROTLI=#{option("Brotli") ? "yes" : "no"}",
                             "-DEXIV2_BUILD_SAMPLES=no",
                             "-G \"Unix Makefiles\"",
                             ".."],
