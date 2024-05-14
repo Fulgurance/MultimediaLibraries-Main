@@ -1,7 +1,7 @@
 {
   "port": "MultimediaLibraries-Main",
   "name": "Exiv2",
-  "version": "1.13.1",
+  "version": "0.28.0",
   "architectures": [
     "x86_64"
   ],
