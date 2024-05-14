@@ -1,0 +1,64 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Exiv2",
+  "version": "1.13.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Image metadata library and tools ",
+  "website": " https://github.com/Exiv2/exiv2",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Cmake",
+      "version": "3.27.2",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Brotli",
+      "description": "Enable brotli support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Brotli",
+          "version": "1.0.9",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Curl",
+      "description": "Enable curl support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Curl",
+          "version": "8.2.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Inih",
+      "description": "Enable inih support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Inih",
+          "version": "57.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
