@@ -2,19 +2,16 @@
   "port": "MultimediaLibraries-Main",
   "name": "Gst-Plugins-Base",
   "version": "1.22.5",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "GStreamer plugins and helper libraries",
   "website": "https://cgit.freedesktop.org/gstreamer/gst-plugins-base/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "MultimediaLibraries-Main",
       "name": "Gstreamer",
-      "version": "1.22.5",
-      "options": [
-        "Gobject-Introspection"
-      ]
+      "version": ">=1.22.5",
+      "options": ["Gobject-Introspection"]
     }
   ],
   "kernelDependencies": [],

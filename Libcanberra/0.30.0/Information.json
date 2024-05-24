@@ -2,14 +2,13 @@
   "port": "MultimediaLibraries-Main",
   "name": "Libcanberra",
   "version": "0.30.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Implementation of the XDG Sound Theme and Name Specifications for generating event sounds on free desktops",
   "website": "https://0pointer.net/lennart/projects/libcanberra/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "MultimediaLibraries-Main",
       "name": "Libvorbis",
       "version": ">=1.3.7",
       "options": []
@@ -23,6 +22,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Alsa-Lib",
           "version": ">=1.2.5-r1",
           "options": []
@@ -36,6 +36,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Gstreamer",
           "version": ">=1.18.4",
           "options": []
@@ -49,6 +50,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Gtk+",
           "version": ">=3.24.30",
           "options": []
@@ -62,6 +64,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Gtk+",
           "version": ">=2.24.33",
           "options": []
@@ -75,6 +78,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaSoftwares-Main",
           "name": "Pulseaudio",
           "version": ">=15.0.0",
           "options": []

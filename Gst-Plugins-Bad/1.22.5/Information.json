@@ -2,16 +2,15 @@
   "port": "MultimediaLibraries-Main",
   "name": "Gst-Plugins-Bad",
   "version": "1.22.5",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Set of plug-ins that aren't up to par compared to the rest",
   "website": "https://gstreamer.freedesktop.org/modules/gst-plugins-bad.html",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "MultimediaLibraries-Main",
       "name": "Gst-Plugins-Base",
-      "version": "1.22.5",
+      "version": ">=1.22.5",
       "options": ["Gobject-Introspection"]
     }
   ],
