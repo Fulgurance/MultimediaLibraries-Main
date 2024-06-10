@@ -21,7 +21,7 @@ class Target < ISM::Software
 
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libvorbis-1.3.7")
 
-        copyFile(Dir["#{buildDirectoryPath}doc/Vorbis*"],"#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libvorbis-1.3.7")
+        copyFile("#{buildDirectoryPath}doc/Vorbis*","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libvorbis-1.3.7")
     end
 
 end
