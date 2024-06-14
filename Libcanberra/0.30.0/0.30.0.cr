@@ -3,9 +3,9 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--disable-oss"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr",
+                                    "--disable-oss",
+                        path:       buildDirectoryPath)
     end
 
     def build
@@ -17,7 +17,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["docdir=/usr/share/doc/libcanberra-0.30","DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "docdir=/usr/share/doc/libcanberra-0.30 DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

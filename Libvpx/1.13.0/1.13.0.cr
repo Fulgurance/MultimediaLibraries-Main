@@ -5,16 +5,19 @@ class Target < ISM::Software
         @buildDirectoryNames["MainBuild"] = "libvpx-build "
         super
 
-        fileReplaceTextAtLineNumber("#{mainWorkDirectoryPath}/build/make/Makefile","cp -p","cp",295)
+        fileReplaceTextAtLineNumber(path:       "#{mainWorkDirectoryPath}/build/make/Makefile",
+                                    text:       "cp -p",
+                                    newText:    "cp",
+                                    lineNumber: 295)
     end
 
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--enable-shared",
-                            "--disable-static"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr
+                                    --enable-shared
+                                    --disable-static",
+                        path:       buildDirectoryPath)
     end
 
     def build
@@ -26,7 +29,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end
