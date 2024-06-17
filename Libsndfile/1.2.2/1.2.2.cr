@@ -6,7 +6,7 @@ class Target < ISM::Software
         configureSource(arguments:  "--prefix=/usr      \
                                     --disable-static    \
                                     --docdir=/usr/share/doc/libsndfile-1.2.2",
-                            buildDirectoryPath)
+                        path:       buildDirectoryPath)
     end
 
     def build
