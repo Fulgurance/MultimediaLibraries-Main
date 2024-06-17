@@ -3,8 +3,8 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr",
-                                    "--disable-oss",
+        configureSource(arguments:  "--prefix=/usr  \
+                                    --disable-oss",
                         path:       buildDirectoryPath)
     end
 
