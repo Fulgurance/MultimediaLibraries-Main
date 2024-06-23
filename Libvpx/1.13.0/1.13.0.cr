@@ -4,18 +4,13 @@ class Target < ISM::Software
         @buildDirectory = true
         @buildDirectoryNames["MainBuild"] = "libvpx-build "
         super
-
-        fileReplaceTextAtLineNumber(path:       "#{mainWorkDirectoryPath}/build/make/Makefile",
-                                    text:       "cp -p",
-                                    newText:    "cp",
-                                    lineNumber: 295)
     end
 
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr
-                                    --enable-shared
+        configureSource(arguments:  "--prefix=/usr  \
+                                    --enable-shared \
                                     --disable-static",
                         path:       buildDirectoryPath)
     end
