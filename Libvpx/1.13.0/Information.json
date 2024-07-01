@@ -43,7 +43,7 @@
       "kernelDependencies": []
     }
   ],
-  "uniqueDependencies": [["@ProgrammingTools-Main-Main:Nasm","@ProgrammingTools-Main-Main:Yasm"]],
+  "uniqueDependencies": [["@ProgrammingTools-Main:Nasm","@ProgrammingTools-Main:Yasm"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
   "allowCodependencies": []
