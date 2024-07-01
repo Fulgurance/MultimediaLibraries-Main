@@ -14,13 +14,13 @@
       "options": []
     },
     {
-      "port": "ProgrammingLanguages-Main",
+      "port": "ProgrammingTools-Main",
       "name": "Nasm",
       "version": ">=2.16.1",
       "options": []
     },
     {
-      "port": "ProgrammingLanguages-Main",
+      "port": "ProgrammingTools-Main",
       "name": "Yasm",
       "version": ">=1.3.0",
       "options": []
@@ -43,7 +43,7 @@
       "kernelDependencies": []
     }
   ],
-  "uniqueDependencies": [["@ProgrammingLanguages-Main:Nasm","@ProgrammingLanguages-Main:Yasm"]],
+  "uniqueDependencies": [["@ProgrammingTools-Main-Main:Nasm","@ProgrammingTools-Main-Main:Yasm"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
   "allowCodependencies": []
