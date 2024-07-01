@@ -43,7 +43,7 @@
       "kernelDependencies": []
     }
   ],
-  "uniqueDependencies": [["ProgrammingLanguages-Main:Nasm","ProgrammingLanguages-Main:Yasm"]],
+  "uniqueDependencies": [["@ProgrammingLanguages-Main:Nasm","@ProgrammingLanguages-Main:Yasm"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
   "allowCodependencies": []
