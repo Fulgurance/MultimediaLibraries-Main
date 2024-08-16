@@ -2,7 +2,7 @@ class Target < ISM::Software
 
     def prepare
         @buildDirectory = true
-        @buildDirectoryNames["MainBuild"] = "libvpx-build "
+        @buildDirectoryNames["MainBuild"] = "libvpx-build"
         super
     end
 
