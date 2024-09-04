@@ -3,8 +3,8 @@
   "name": "Alsa-Lib",
   "version": "1.2.9",
   "architectures": ["x86_64"],
-  "description": "The Advanced Linux Sound Architecture library ",
-  "website": "Library to interface with ALSA in the Linux kernel and virtual devices using a plugin system",
+  "description": "Interface to the ALSA drivers",
+  "website": "https://www.alsa-project.org/wiki/Main_Page",
   "installedFiles": [],
   "dependencies": [
     {
