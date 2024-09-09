@@ -1,0 +1,52 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Libva",
+  "version": "1.22.5",
+  "architectures": ["x86_64"],
+  "description": "Implementation for VA-API (Video Acceleration API) ",
+  "website": "https://github.com/intel/libva",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libdrm",
+      "version": ">=2.4.115",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Mesa",
+      "description": "Enable mesa support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Mesa",
+          "version": ">=23.1.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Wayland",
+      "description": "Enable wayland support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Wayland",
+          "version": ">=1.22.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
