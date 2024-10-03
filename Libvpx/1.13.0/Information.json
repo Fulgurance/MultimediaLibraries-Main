@@ -8,9 +8,9 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "SystemBase-Main",
-      "name": "SystemBase",
-      "version": ">=0.2.0",
+      "port": "Utilities-Main",
+      "name": "Which",
+      "version": ">=2.21.0",
       "options": []
     },
     {
@@ -27,22 +27,7 @@
     }
   ],
   "kernelDependencies": [],
-  "options": [
-    {
-      "name": "Which",
-      "description": "Enable which support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "Utilities-Main",
-          "name": "Which",
-          "version": ">=2.21.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    }
-  ],
+  "options": [],
   "uniqueDependencies": [["@ProgrammingTools-Main:Nasm","@ProgrammingTools-Main:Yasm"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
