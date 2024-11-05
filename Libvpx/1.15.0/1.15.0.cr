@@ -1,11 +1,17 @@
 class Target < ISM::Software
 
+    def prepare
+        @buildDirectory = true
+        @buildDirectoryNames["MainBuild"] = "libvpx-build"
+        super
+    end
+
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr      \
-                                    --disable-static    \
-                                    --docdir=/usr/share/doc/#{versionName}",
+        configureSource(arguments:  "--prefix=/usr  \
+                                    --enable-shared \
+                                    --disable-static",
                         path:       buildDirectoryPath)
     end
 

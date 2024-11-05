@@ -1,0 +1,41 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Alsa-Lib",
+  "version": "1.2.12",
+  "architectures": ["x86_64"],
+  "description": "Interface to the ALSA drivers",
+  "website": "https://www.alsa-project.org/wiki/Main_Page",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": ["Pass3"]
+    }
+  ],
+  "kernelDependencies": [
+    "CONFIG_SOUND",
+    "CONFIG_SND"
+  ],
+  "options": [
+    {
+      "name": "Elogind",
+      "description": "Enable elogind support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "Utilities-Main",
+          "name": "Elogind",
+          "version": ">=252.9.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

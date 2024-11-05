@@ -1,16 +1,16 @@
 {
   "port": "MultimediaLibraries-Main",
-  "name": "Libvorbis",
-  "version": "1.3.7",
+  "name": "Taglib",
+  "version": "2.0.2",
   "architectures": ["x86_64"],
-  "description": "Reference implementation of the Vorbis codec",
-  "website": "https://www.xiph.org/downloads/",
+  "description": "Library for reading and editing the meta-data of several popular audio formats",
+  "website": "https://taglib.github.io",
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "MultimediaLibraries-Main",
-      "name": "Libogg",
-      "version": ">=1.3.5",
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
       "options": []
     }
   ],

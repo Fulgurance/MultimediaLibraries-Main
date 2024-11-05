@@ -1,17 +1,17 @@
 {
   "port": "MultimediaLibraries-Main",
-  "name": "Libvorbis",
-  "version": "1.3.7",
+  "name": "Gst-Plugins-Good",
+  "version": "1.24.9",
   "architectures": ["x86_64"],
-  "description": "Reference implementation of the Vorbis codec",
-  "website": "https://www.xiph.org/downloads/",
+  "description": "Set of plug-ins that we consider to have good quality code",
+  "website": "https://gstreamer.freedesktop.org/modules/gst-plugins-good.html",
   "installedFiles": [],
   "dependencies": [
     {
       "port": "MultimediaLibraries-Main",
-      "name": "Libogg",
-      "version": ">=1.3.5",
-      "options": []
+      "name": "Gst-Plugins-Base",
+      "version": ">=1.22.5",
+      "options": ["Gobject-Introspection"]
     }
   ],
   "kernelDependencies": [],
