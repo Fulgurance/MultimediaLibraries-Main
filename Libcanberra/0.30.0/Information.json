@@ -45,13 +45,13 @@
       "kernelDependencies": []
     },
     {
-      "name": "Gtk+3",
+      "name": "Gtk",
       "description": "Enable gtk+3 support",
       "active": false,
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",
-          "name": "Gtk+",
+          "name": "Gtk",
           "version": ">=3.24.30",
           "options": []
         }
@@ -59,13 +59,13 @@
       "kernelDependencies": []
     },
     {
-      "name": "Gtk+2",
+      "name": "Gtk",
       "description": "Enable gtk+2 support",
       "active": false,
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",
-          "name": "Gtk+",
+          "name": "Gtk",
           "version": "<3.0.0",
           "options": []
         }
