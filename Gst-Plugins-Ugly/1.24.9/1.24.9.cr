@@ -13,7 +13,6 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}                                        \
                                     --prefix=/usr                                                               \
                                     --buildtype=release                                                         \
-                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
                                     -Dgpl=enabled",
                         path:       mainWorkDirectoryPath)
     end
