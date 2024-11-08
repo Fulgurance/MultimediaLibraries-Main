@@ -11,7 +11,7 @@
       "port": "MultimediaLibraries-Main",
       "name": "Gstreamer",
       "version": ">=1.22.5",
-      "options": ["Gobject-Introspection"]
+      "options": []
     }
   ],
   "kernelDependencies": [],
