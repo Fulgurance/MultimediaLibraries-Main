@@ -8,11 +8,12 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup                                  \
-                                    --reconfigure                           \
-                                    #{@buildDirectoryNames["MainBuild"]}    \
-                                    --prefix=/usr                           \
-                                    --buildtype=release                     \
+        runMesonCommand(arguments:  "setup                                                                      \
+                                    --reconfigure                                                               \
+                                    #{@buildDirectoryNames["MainBuild"]}                                        \
+                                    --prefix=/usr                                                               \
+                                    --buildtype=release                                                         \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
                                     --wrap-mode=nodownload",
                         path:       mainWorkDirectoryPath)
     end
