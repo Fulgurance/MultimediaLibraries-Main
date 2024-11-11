@@ -10,6 +10,7 @@ class Target < ISM::Software
 
         runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr    \
                                     -DCMAKE_BUILD_TYPE=Release      \
+                                    -DPHONON_BUILD_QT5=OFF          \
                                     ..",
                         path:       buildDirectoryPath)
     end
