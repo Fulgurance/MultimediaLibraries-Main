@@ -28,8 +28,14 @@
     {
       "port": "QtLibraries-Main",
       "name": "Qtbase",
-      "version": ">=5.0.0",
+      "version": ">=6.0.0 ~ <7.0.0",
       "options": ["Xcb"]
+    },
+    {
+      "port": "QtLibraries-Main",
+      "name": "Qt5compat",
+      "version": ">>=6.0.0 ~ <7.0.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
