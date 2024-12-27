@@ -1,0 +1,23 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Portaudio",
+  "version": "19.7.0",
+  "architectures": ["x86_64"],
+  "description": "Cross-platform, open-source C language library for real-time audio input and output",
+  "website": "https://github.com/PortAudio/portaudio",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
