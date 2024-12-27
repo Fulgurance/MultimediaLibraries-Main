@@ -1,0 +1,38 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "X265",
+  "version": "4.1.0",
+  "architectures": ["x86_64"],
+  "description": "Open Source H.265 / HEVC video encoder",
+  "website": "https://bitbucket.org/multicoreware/x265_git/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Nasm",
+      "description": "Enable nasm support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "ProgrammingTools-Main",
+          "name": "Nasm",
+          "version": ">=2.16.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
