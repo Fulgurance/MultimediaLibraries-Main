@@ -1,16 +1,16 @@
 {
   "port": "MultimediaLibraries-Main",
-  "name": "Libvorbis",
-  "version": "1.3.7",
+  "name": "Lame",
+  "version": "3.100.0",
   "architectures": ["x86_64"],
-  "description": "Reference implementation of the Vorbis codec",
-  "website": "https://www.xiph.org/downloads/",
+  "description": "LAME Ain't an MP3 Encoder",
+  "website": "https://sourceforge.net/projects/lame/",
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "MultimediaLibraries-Main",
-      "name": "Libogg",
-      "version": ">=1.3.5",
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
