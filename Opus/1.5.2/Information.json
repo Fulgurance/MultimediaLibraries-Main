@@ -1,0 +1,23 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Opus",
+  "version": "1.5.2",
+  "architectures": ["x86_64"],
+  "description": "Totally open, royalty-free, highly versatile audio codec",
+  "website": "https://opus-codec.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
