@@ -4,6 +4,8 @@ class Target < ISM::Software
         super
 
         configureSource(arguments:  "--prefix=/usr  \
+                                    --disable-gtk   \
+                                    --disable-gtk3  \
                                     --disable-oss",
                         path:       buildDirectoryPath)
     end
