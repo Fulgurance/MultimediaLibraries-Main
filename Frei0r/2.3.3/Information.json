@@ -1,0 +1,23 @@
+{
+  "port": "MultimediaLibraries-Main",
+  "name": "Frei0r",
+  "version": "2.3.3",
+  "architectures": ["x86_64"],
+  "description": "Collection of free and open source video effects plugins.",
+  "website": "https://github.com/dyne/frei0r",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=6.0.0 ~ <7.0.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
