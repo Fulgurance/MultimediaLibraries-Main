@@ -10,7 +10,7 @@
     {
       "port": "ProgrammingTools-Main",
       "name": "Cmake",
-      "version": ">=6.0.0 ~ <7.0.0",
+      "version": ">=3.27.2",
       "options": []
     }
   ],
