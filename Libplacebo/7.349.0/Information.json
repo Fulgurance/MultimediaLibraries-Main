@@ -18,6 +18,12 @@
       "name": "Glad2",
       "version": ">=2.0.0",
       "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Vulkan-Loader",
+      "version": ">=1.4.307",
+      "options": []
     }
   ],
   "kernelDependencies": [],
