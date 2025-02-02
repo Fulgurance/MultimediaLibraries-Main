@@ -15,8 +15,8 @@
     },
     {
       "port": "BaseLibraries-Main",
-      "name": "Glad",
-      "version": ">=0.1.36",
+      "name": "Glad2",
+      "version": ">=2.0.0",
       "options": []
     }
   ],
