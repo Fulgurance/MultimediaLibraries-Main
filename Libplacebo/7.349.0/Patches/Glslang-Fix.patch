@@ -1,0 +1,9 @@
+--- a/src/glsl/meson.build
++++ b/src/glsl/meson.build
+@@ -39,4 +39,5 @@
+ 
+     glslang_deps += spirv
++    glslang_deps += cxx.find_library('glslang', required: required, static: static)
+ 
+     if static
+
