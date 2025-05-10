@@ -14,6 +14,7 @@ class Target < ISM::Software
                                     --prefix=/usr                                                               \
                                     --buildtype=release                                                         \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
+                                    -Dtests=disabled                                                            \
                                     -Dgpl=enabled",
                         path:       mainWorkDirectoryPath)
     end
