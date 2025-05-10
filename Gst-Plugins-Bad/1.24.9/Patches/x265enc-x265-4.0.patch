@@ -12,10 +12,10 @@ post-4.0 and FFmpeg [adapted again][2].
  .../gst-plugins-bad/ext/x265/gstx265enc.c     | 29 ++++++++++++++-----
  1 file changed, 21 insertions(+), 8 deletions(-)
 
-diff --git a/subprojects/gst-plugins-bad/ext/x265/gstx265enc.c b/subprojects/gst-plugins-bad/ext/x265/gstx265enc.c
+diff --git a/ext/x265/gstx265enc.c b/ext/x265/gstx265enc.c
 index e6aa973ac7cc..44cb74fc690b 100644
---- a/subprojects/gst-plugins-bad/ext/x265/gstx265enc.c
-+++ b/subprojects/gst-plugins-bad/ext/x265/gstx265enc.c
+--- a/ext/x265/gstx265enc.c
++++ b/ext/x265/gstx265enc.c
 @@ -1514,7 +1514,12 @@ gst_x265_enc_encode_frame (GstX265Enc * encoder, x265_picture * pic_in,
  {
    GstVideoCodecFrame *frame = NULL;
