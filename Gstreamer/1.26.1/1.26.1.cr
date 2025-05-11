@@ -18,7 +18,6 @@ class Target < ISM::Software
                                     -Dbad=#{option("Bad") ? "enabled" : "disabled"}                             \
                                     -Dugly=#{option("Ugly") ? "enabled" : "disabled"}                           \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
-                                    -Dgst_debug=false                                                           \
                                     -Dtests=disabled                                                            \
                                     -Dgpl=enabled",
                         path:       mainWorkDirectoryPath)
