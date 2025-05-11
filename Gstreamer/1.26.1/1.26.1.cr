@@ -12,7 +12,15 @@ class Target < ISM::Software
                                     --reconfigure                                                               \
                                     #{@buildDirectoryNames["MainBuild"]}                                        \
                                     --prefix=/usr                                                               \
-                                    --buildtype=release",
+                                    --buildtype=release                                                         \
+                                    -Dbase=#{option("Base") ? "enabled" : "disabled"}                           \
+                                    -Dgood=#{option("Good") ? "enabled" : "disabled"}                           \
+                                    -Dbad=#{option("Bad") ? "enabled" : "disabled"}                             \
+                                    -Dugly=#{option("Ugly") ? "enabled" : "disabled"}                           \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
+                                    -Dgst_debug=false                                                           \
+                                    -Dtests=disabled                                                            \
+                                    -Dgpl=enabled",
                         path:       mainWorkDirectoryPath)
     end
 
@@ -31,4 +39,3 @@ class Target < ISM::Software
     end
 
 end
-

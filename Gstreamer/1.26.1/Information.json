@@ -1,7 +1,7 @@
 {
   "port": "MultimediaLibraries-Main",
   "name": "Gstreamer",
-  "version": "1.22.5",
+  "version": "1.26.1",
   "architectures": ["x86_64"],
   "description": "Extremely powerful and versatile framework for creating streaming media applications",
   "website": "https://gstreamer.freedesktop.org/",
@@ -16,6 +16,34 @@
   ],
   "kernelDependencies": [],
   "options": [
+    {
+      "name": "Base",
+      "description": "Enable plugin base support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Good",
+      "description": "Enable plugin good support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Bad",
+      "description": "Enable plugin bad support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Ugly",
+      "description": "Enable plugin ugly support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
     {
       "name": "Gobject-Introspection",
       "description": "Enable gobject-introspection support",
