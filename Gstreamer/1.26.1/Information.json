@@ -19,28 +19,28 @@
     {
       "name": "Base",
       "description": "Enable plugin base support",
-      "active": false,
+      "active": true,
       "dependencies": [],
       "kernelDependencies": []
     },
     {
       "name": "Good",
       "description": "Enable plugin good support",
-      "active": false,
+      "active": true,
       "dependencies": [],
       "kernelDependencies": []
     },
     {
       "name": "Bad",
       "description": "Enable plugin bad support",
-      "active": false,
+      "active": true,
       "dependencies": [],
       "kernelDependencies": []
     },
     {
       "name": "Ugly",
       "description": "Enable plugin ugly support",
-      "active": false,
+      "active": true,
       "dependencies": [],
       "kernelDependencies": []
     },
