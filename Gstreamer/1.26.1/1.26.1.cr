@@ -13,6 +13,7 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}                                        \
                                     --prefix=/usr                                                               \
                                     --buildtype=release                                                         \
+                                    --wrap-mode=nodownload                                                      \
                                     -Dbase=#{option("Base") ? "enabled" : "disabled"}                           \
                                     -Dgood=#{option("Good") ? "enabled" : "disabled"}                           \
                                     -Dbad=#{option("Bad") ? "enabled" : "disabled"}                             \
