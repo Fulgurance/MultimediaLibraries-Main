@@ -1,0 +1,26 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    X264
+VERSION
+    0.0.0-20230215
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format
+WEBSITE
+    https://www.videolan.org/developers/x264.html
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Nasm
+    description: Enable nasm support
+    active: false
+    dependencies:
+        @ProgrammingTools-Main:Nasm>=2.16.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,40 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Exiv2
+VERSION
+    0.28.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Image metadata library and tools 
+WEBSITE
+    https://github.com/Exiv2/exiv2
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+    name: Brotli
+    description: Enable brotli support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Brotli>=1.0.9
+    kernelDependencies:
+
+    name: Curl
+    description: Enable curl support
+    active: false
+    dependencies:
+        @NetworkingLibraries-Main:Curl>=8.2.1
+    kernelDependencies:
+
+    name: Inih
+    description: Enable inih support
+    active: false
+    dependencies:
+        @Utilities-Main:Inih>=57.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

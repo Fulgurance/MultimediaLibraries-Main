@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Libvorbis
+VERSION
+    1.3.7
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Reference implementation of the Vorbis codec
+WEBSITE
+    https://www.xiph.org/downloads/
+DEPENDENCIES
+        @MultimediaLibraries-Main:Libogg>=1.3.5
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,30 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Phonon
+VERSION
+    4.12.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Multi-platform sound framework for application developers
+WEBSITE
+    https://github.com/KDE/phonon
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.21.2
+        @ProgrammingTools-Main:Extra-Cmake-Modules>=5.85.0
+        @BaseLibraries-Main:Glib>=2.68.4
+        @QtLibraries-Main:Qtbase>=6.0.0 ~ <7.0.0(Xcb)
+        @QtLibraries-Main:Qt5compat>=6.0.0 ~ <7.0.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Pulseaudio
+    description: Enable pulseaudio support
+    active: true
+    dependencies:
+        @MultimediaSoftwares-Main:Pulseaudio>=15.0.0(Glib)
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,26 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    X265
+VERSION
+    4.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Open Source H.265 / HEVC video encoder
+WEBSITE
+    https://bitbucket.org/multicoreware/x265_git/
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+    name: Nasm
+    description: Enable nasm support
+    active: false
+    dependencies:
+        @ProgrammingTools-Main:Nasm>=2.16.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

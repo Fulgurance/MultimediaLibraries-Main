@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Frei0r
+VERSION
+    2.3.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Collection of free and open source video effects plugins.
+WEBSITE
+    https://github.com/dyne/frei0r
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

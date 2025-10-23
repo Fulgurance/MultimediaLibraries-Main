@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Speexdsp
+VERSION
+    1.2.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    SpeexDSP is a patent-free, Open Source/Free Software DSP library.
+WEBSITE
+    https://www.speex.org
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Sound-Theme-Freedesktop
+VERSION
+    0.8.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Default theme for the XDG Sound Theme Specification
+WEBSITE
+    https://gitlab.freedesktop.org/xdg/xdg-sound-theme
+DEPENDENCIES
+        @Utilities-Main:Intltool>=0.51.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

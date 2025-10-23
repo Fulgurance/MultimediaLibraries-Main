@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Portaudio
+VERSION
+    19.7.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Cross-platform, open-source C language library for real-time audio input and output
+WEBSITE
+    https://github.com/PortAudio/portaudio
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Lame
+VERSION
+    3.100.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    LAME Ain't an MP3 Encoder
+WEBSITE
+    https://sourceforge.net/projects/lame/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

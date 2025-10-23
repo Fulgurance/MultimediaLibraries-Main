@@ -1,0 +1,28 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Alsa-Lib
+VERSION
+    1.2.9
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Interface to the ALSA drivers
+WEBSITE
+    https://www.alsa-project.org/wiki/Main_Page
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0(Pass2)
+KERNELDEPENDENCIES
+    CONFIG_SOUND
+    CONFIG_SND
+OPTIONS
+    name: Elogind
+    description: Enable elogind support
+    active: true
+    dependencies:
+        @Utilities-Main:Elogind>=252.9.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

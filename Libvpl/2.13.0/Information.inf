@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Libvpl
+VERSION
+    2.13.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Intel® Video Processing Library API, dispatcher, and examples 
+WEBSITE
+    https://github.com/intel/libvpl
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

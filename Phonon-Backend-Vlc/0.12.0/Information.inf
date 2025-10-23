@@ -1,0 +1,20 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Phonon-Backend-Vlc
+VERSION
+    0.12.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    VLC backend for the Phonon multimedia library
+WEBSITE
+    https://invent.kde.org/libraries/phonon-vlc
+DEPENDENCIES
+        @MultimediaLibraries-Main:Phonon>=4.11.1
+        @MultimediaSoftwares-Main:Vlc>=3.0.16
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

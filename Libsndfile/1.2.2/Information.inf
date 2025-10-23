@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Libsndfile
+VERSION
+    1.2.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    C library for reading and writing sound files containing sampled audio data
+WEBSITE
+    https://github.com/libsndfile/libsndfile
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

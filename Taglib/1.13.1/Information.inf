@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Taglib
+VERSION
+    1.13.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library for reading and editing the meta-data of several popular audio formats
+WEBSITE
+    https://taglib.github.io
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
