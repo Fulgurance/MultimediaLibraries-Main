@@ -1,0 +1,19 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Taglib
+VERSION
+    2.1.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library for reading and editing the meta-data of several popular audio formats
+WEBSITE
+    https://taglib.github.io
+DEPENDENCIES
+        @BaseLibraries-Main:Utfcpp>=4.0.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

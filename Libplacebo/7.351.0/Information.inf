@@ -1,0 +1,21 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Libplacebo
+VERSION
+    7.351.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Reusable library for GPU-accelerated image/video processing primitives and shaders, as well a batteries-included, extensible, high-quality rendering pipeline
+WEBSITE
+    https://code.videolan.org/videolan/libplacebo
+DEPENDENCIES
+        @MultimediaSoftwares-Main:Ffmpeg>=7.1.0
+        @BaseLibraries-Main:Glad2>=2.0.0
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

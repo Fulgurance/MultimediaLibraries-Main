@@ -1,0 +1,20 @@
+PORT
+    MultimediaLibraries-Main
+NAME
+    Mlt
+VERSION
+    7.34.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    MLT Multimedia Framework
+WEBSITE
+    https://github.com/mltframework/mlt
+DEPENDENCIES
+        @QtLibraries-Main:Qtbase>=6.0.0 ~ <7.0.0
+        @MultimediaLibraries-Main:Frei0r>=2.3.3
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
