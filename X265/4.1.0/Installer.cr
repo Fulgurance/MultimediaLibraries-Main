@@ -12,7 +12,9 @@ class Target < ISM::Software
         runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr        \
                                     -DCMAKE_BUILD_TYPE=Release          \
                                     -DCMAKE_POLICY_VERSION_MINIMUM=3.5  \
-                                    -DBUILD_TESTING=OFF",
+                                    -DBUILD_TESTING=OFF                 \
+                                    -DENABLE_LIBNUMA=OFF                \
+                                    -W no-dev",
                         path:       buildDirectoryPath)
     end
 
